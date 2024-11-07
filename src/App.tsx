@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import './App.css'
-import Ninjas from './Ninjas/Ninjas';
+import NinjaApp from './Ninjas/NinjaApp';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Ninjas />
+      <NinjaApp />
     </>
   )
 }
